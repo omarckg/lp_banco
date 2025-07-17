@@ -1705,10 +1705,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
 .footer-baq-container {
     max-width: 1100px;
     margin: 0 auto;
-    margin-left: 30px;
+    /* margin-left: 30px; */ /* Elimina o comenta esta línea */
     display: flex;
-    gap: 32px;              /* Menos espacio entre columnas */
-    justify-content: flex-start;
+    gap: 32px;
+    justify-content: center; /* Cambia a center */
     align-items: flex-start;
     flex-wrap: wrap;
 }
@@ -1773,7 +1773,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
 @media (max-width: 900px) {
     .footer-baq-container {
         display: flex;
-        gap: 16px;
+        gap: 60px;
         align-items: center; /* Centra horizontalmente el contenido */
         text-align: center;
         justify-content: flex-start;
@@ -1784,8 +1784,11 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
     .footer-baq-col {
         width: 50%;
         max-width: 250px; /* O el ancho que prefieras para que no se vean demasiado anchas */
-        margin: 0 auto;   /* Centra cada columna si tienen un ancho menor al 100% */
-        text-align: center; /* Centra el texto dentro de cada columna */
+        margin: 0 auto;
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;   /* Centra cada columna si tienen un ancho menor al 100% */
+         /* Centra el texto dentro de cada columna */
     }
 }
 
