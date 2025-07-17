@@ -68,7 +68,7 @@
 
 .stats-banner .stat-number {
     color: var(--vinotinto);
-    font-size: 1em; /* Manteniendo el tamaño que habíamos puesto */
+    font-size: 9em; /* Manteniendo el tamaño que habíamos puesto */
     font-weight: bold;
     display: block; /* Para que ocupe su propia línea dentro del .stat-item */
     margin-bottom: 5px;
