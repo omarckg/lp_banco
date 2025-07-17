@@ -68,7 +68,7 @@
 
 .stats-banner .stat-number {
     color: var(--vinotinto);
-    font-size: 10em; /* Manteniendo el tamaño que habíamos puesto */
+    font-size: 1em; /* Manteniendo el tamaño que habíamos puesto */
     font-weight: bold;
     display: block; /* Para que ocupe su propia línea dentro del .stat-item */
     margin-bottom: 5px;
@@ -296,17 +296,30 @@
         flex-direction: column;
         gap: 20px;
         padding: 30px 20px;
+        
     }
 
     .stats-banner .separator {
-        width: 100%;
-        height: 20px;
+        width: 70%;
+        height: 5px;
     }
 
     .stats-banner .map-shape {
         position: static; /* Elimina la posición absoluta en móviles */
         transform: none;
         margin-top: 20px;
+    }
+
+    .stats-banner .stat-number {
+        color: var(--vinotinto);
+        font-size: 8em; /* Manteniendo el tamaño que habíamos puesto */
+        font-weight: bold;
+        display: block; /* Para que ocupe su propia línea dentro del .stat-item */
+        margin-bottom: 5px;
+        margin-top: 0px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        position: relative; /* Necesario para posicionar el pseudo-elemento '+' */
+        /* Removí 'display: inline-block' si estaba, porque 'block' es más adecuado aquí */
     }
 
     .volunteering-info-card {
@@ -339,5 +352,16 @@
 @media (max-width: 768px) {
     .volunteering-section {
         padding: 40px 15px;
+    }
+    .stats-banner .stat-number {
+        color: var(--vinotinto);
+        font-size: 6em; /* Manteniendo el tamaño que habíamos puesto */
+        font-weight: bold;
+        display: block; /* Para que ocupe su propia línea dentro del .stat-item */
+        margin-bottom: 5px;
+        margin-top: 0px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        position: relative; /* Necesario para posicionar el pseudo-elemento '+' */
+        /* Removí 'display: inline-block' si estaba, porque 'block' es más adecuado aquí */
     }
 } 

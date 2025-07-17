@@ -12,7 +12,7 @@
 .aliados-donantes-container {
     border-radius: 24px;
     
-    max-width: 1100px;
+    max-width: 1550px;
     width: 100%;
     overflow: hidden;
     margin: 0 0;
@@ -83,14 +83,7 @@
     .aliados-donantes-slider {
         gap: 10px;
     }
-    .aliado-logo {
-        width: 90px;
-        height: 60px;
-    }
-    .aliado-logo img {
-        max-width: 70px;
-        max-height: 40px;
-    }
+    
 }
 
 
@@ -305,3 +298,124 @@
         font-size: 2.5em;
     }
 } 
+
+@media (max-width: 1500px) {
+    .aliados-donantes-container {
+        border-radius: 24px;
+        
+        max-width: 1000px;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+} 
+
+@media (max-width: 1200px) {
+    .aliados-mencion-texto {
+        font-size: 1.6em;
+        color: #fff8e1;
+        font-style: italic;
+        max-width: 420px;
+        margin: 0 auto;
+        margin-left: 20px;
+        text-align: center;
+        transform: translate(-100px, 0px); /* Cambia los valores para mover en X (horizontal) y Y (vertical) */
+    }
+
+    .aliados-mencion-titulo {
+        font-size: 2.5em;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: #fff8e1;
+        text-shadow: 1px 1px 6px #3d0d0f44;
+        margin-bottom: 10px;
+        margin-right: 60px;
+        transform: translate(-60px, 0px);
+    }
+
+    .aliados-mencion-banner-right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-width: 180px;
+        margin-right: -20px;
+    }
+
+    
+
+}
+
+@media (max-width: 700px) {
+    .aliados-mencion-texto {
+        font-size: 1.6em;
+        color: #fff8e1;
+        font-style: italic;
+        max-width: 1000px;
+        margin: 0 ;
+        margin-left: 200px;
+        text-align: center;
+        transform: translate(-100px, 0px); /* Cambia los valores para mover en X (horizontal) y Y (vertical) */
+    }
+
+    .aliados-mencion-titulo {
+        font-size: 2.5em;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: #fff8e1;
+        text-shadow: 1px 1px 6px #3d0d0f44;
+        margin-bottom: 10px;
+        margin-right: 60px;
+        margin-left: 200px;
+        transform: translate(-60px, 0px);
+    }
+
+    .aliados-mencion-banner-right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 50px;
+        margin-right: -20px;
+    }
+
+    
+
+}
+
+@media (max-width: 600px) {
+    .aliados-donantes-container {
+        border-radius: 24px;
+        
+        max-width: 1000px;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aliado-logo {
+        flex: 0 0 auto;
+        width: 170px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+        margin: 0 18px;
+        transition: transform 0.2s;
+    }
+    
+}

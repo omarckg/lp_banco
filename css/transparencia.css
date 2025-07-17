@@ -173,6 +173,10 @@
     .transparency-reports-grid {
         flex-direction: column; /* Apila las tarjetas de informe en pantallas más pequeñas */
         gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        justify-items: center;
     }
 
     .downloadable-text {
@@ -180,8 +184,10 @@
     }
 
     .report-card {
-        width: 220px; /* Un poco más anchas cuando están apiladas */
-        height: 180px;
+        width: 90%;
+        max-width: 250px;
+        height: auto;
+        padding: 15px;
     }
 
     .transparency-figures-grid {
@@ -195,12 +201,14 @@
     }
 
     .transparency-reports-grid {
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         gap: 15px;
+        justify-items: center;
     }
 
     .report-card {
-        width: 90%; /* Ocupa casi todo el ancho disponible */
+        width: 90%;
         max-width: 250px;
         height: auto;
         padding: 15px;
@@ -218,6 +226,10 @@
         grid-template-columns: 1fr; /* Una columna en móviles */
     }
 
+    .figure-card{
+        min-height: 100px
+
+    }
     .figure-card i {
         font-size: 4em;
     }
