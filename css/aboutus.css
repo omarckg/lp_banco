@@ -171,6 +171,11 @@
     text-align: left; /* Alineación por defecto del h2 */
 }
 
+.carousel-slide.why-we-exist-slide .about-us-text  {
+    /* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
+    width: 250px; /* Alineación por defecto del h2 */
+}
+
 .carousel-control {
     position: absolute;
     top: 60%;
@@ -231,33 +236,41 @@
     align-items: flex-start;
     margin-bottom: 10px;
     flex: 1 1 45%;
+    
 }
 
 .ods-block-small img {
-    width: 70px;
+    width: 120px;
     height: auto;
     margin-right: 10px;
+    margin-left: -50px;
     border-radius: 8px;
     box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
-.ods-block-small p {
+.ods2-text{
     font-size: 1em;
-    margin-left: -300px;
+    margin-left: 0px;
+    margin-right: 5px;
     color: #ffffff;
     line-height: 1.5;
 }
 .ods-columna {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 8px;
     margin-right: 130px;
-    margin-left: 60px; /* Espacio entre los bloques, puedes ajustarlo */
+    margin-left: 60px;
+    justify-content: center;   /* Centra horizontalmente */
+    align-items: center;       /* Centra verticalmente */
 }
-@media (max-width: 992px) {
-    .about-us-content{
-        max-width: 1400px;
-    }
 
+
+@media (max-width: 992px) {
+    
+    .carousel-slide.why-we-exist-slide .about-us-text  {
+        /* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
+        width: 900px; /* Alineación por defecto del h2 */
+    }
     .carousel-slide {
         flex-direction: column;
         text-align: center;
@@ -265,8 +278,8 @@
     }
     .about-us-text {
         margin-top: 60px;
-        margin-right: 40px;
-        margin-left: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     .about-us-section h2 {
@@ -296,9 +309,9 @@
     .carousel-slide .about-us-text p {
         font-size: 0.9em;
         text-align: left;
-        max-width: 800px; /* puedes ajustar este valor */
-        margin-right: 40px;
-        margin-left: 70px;
+        max-width: 700px; /* puedes ajustar este valor */
+        margin-right: 60px;
+        margin-left: 60px;
         margin-top: 0.5px;
     
       }
@@ -340,18 +353,7 @@
         margin: 0 0 8px 0;
         
     }
-    .carousel-slide.why-we-exist-slide .about-us-text p {
-        
-        margin-right: 110px;
-        margin-left: 80px;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
-         /* Alineación por defecto del h2 */
-    }
-    .carousel-slide.why-we-exist-slide .about-us-text h4 {
-        
-        margin-right: 110px;
-        margin-left: 50px;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
-         /* Alineación por defecto del h2 */
-    }
+   
     .ods-block-small img {
         width: 70px;
         height: auto;
@@ -361,14 +363,20 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
     .about-us-content{
-        max-width: 1400px;
+        max-width: 800px;
     }
+    
+    .carousel-inner {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 150%;
+        height: 350px;
+    }
+
     .about-us-text {
-        margin-top: 60px;
-        margin-right: 40px;
-        margin-left: 50px;
+        margin-top: 0px;
     }
 
     .about-us-section h2 {
@@ -385,8 +393,8 @@
   .carousel-slide .about-us-text h3 {
     font-size: 1.3em;
     text-align: left;
-    margin-top: 30px;
-    margin-left: 80px;
+    margin-top: auto;
+    margin-left: 30px;
   }
 
   .carousel-slide .about-us-text h4 {
@@ -396,10 +404,133 @@
     
   }
   .carousel-slide .about-us-text p {
-    font-size: 0.78em;
+    font-size: 0.7em;
     text-align: left;
     max-width: 600px; /* puedes ajustar este valor */
-    margin-right: 40px;
+    margin-right: 60px;
+    margin-left: -20pxx;
+    margin-top: 0.5px;
+
+  }
+  .about-us-text ul{
+    font-size: 0.7em;
+    text-align: left;
+    max-width: 600px; /* puedes ajustar este valor */
+    margin-right: 100px;
+    margin-left: 80px;
+    margin-top: 0.5px;
+
+  }
+  .carousel-slide.full-width-text-slide .about-us-text {
+    flex: 1 20 100%;
+    margin-right: 50px;
+    margin-left: 30px;
+    text-align: left;
+    width: 78%;
+}
+
+  .about-us-image img {
+    width: 90px;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+    margin-top: 20px; /* opcional */
+}
+.about-us-image {
+    flex: 1 1 auto;
+    display: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 8px 0;
+
+    
+}
+.carousel-slide.why-we-exist-slide .about-us-text  {
+    
+    height: 480px;
+    width: 71%;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
+     /* Alineación por defecto del h2 */
+}
+.carousel-slide.why-we-exist-slide .about-us-text p {
+    
+    margin-right: -10px;
+    margin-left: 0px;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
+     /* Alineación por defecto del h2 */
+}
+.carousel-slide.why-we-exist-slide .about-us-text h4 {
+    
+    margin-right: -10px;
+    margin-left: -10px;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
+     /* Alineación por defecto del h2 */
+}
+
+
+.ods2-text{
+    font-size: 0.75em;
+    margin-left: 0px;
+    margin-right: 5px;
+    color: #ffffff;
+    line-height: 1.5;
+    width: 120px;
+}
+
+.ods-block-small img {
+    width: 70px;
+    height: auto;
+    margin-left: 30px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+} 
+
+
+@media (max-width: 600px) {
+    .about-us-content{
+        max-width: 500px;
+    }
+    
+    .carousel-inner {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 150%;
+        height: 350px;
+    }
+
+    .about-us-text {
+        margin-top: 0px;
+    }
+
+    .about-us-section h2 {
+        font-size: 1.2em;
+        text-align: left;
+      }
+  .carousel-slide .about-us-text h3 {
+    font-size: 1.3em;
+    text-align: left;
+    margin-top: auto;
+    margin-left: 80px;
+  }
+
+  .carousel-slide .about-us-text h3 {
+    font-size: 1.3em;
+    text-align: left;
+    margin-top: auto;
+    margin-left: 30px;
+  }
+
+  .carousel-slide .about-us-text h4 {
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: auto;
+    
+  }
+  .carousel-slide .about-us-text p {
+    font-size: 0.68em;
+    text-align: left;
+    max-width: 600px; /* puedes ajustar este valor */
+    margin-right: 0px;
     margin-left: 60px;
     margin-top: 0.5px;
 
@@ -415,14 +546,14 @@
   }
   .carousel-slide.full-width-text-slide .about-us-text {
     flex: 1 20 100%;
-    padding-right: 60px;
-    padding-left: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
     text-align: left;
-    width: 85%;
+    width: 78%;
 }
 
   .about-us-image img {
-    width: 140px;
+    width: 90px;
     height: auto;
     max-width: 100%;
     display: block;
@@ -437,120 +568,42 @@
     margin: 0 0 8px 0;
     
 }
+.carousel-slide.why-we-exist-slide .about-us-text  {
+    
+    height: 480px;
+    width: 71%;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
+     /* Alineación por defecto del h2 */
+}
 .carousel-slide.why-we-exist-slide .about-us-text p {
     
-    margin-right: 110px;
-    margin-left: 50px;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
+    margin-right: -10px;
+    margin-left: 0px;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
      /* Alineación por defecto del h2 */
 }
 .carousel-slide.why-we-exist-slide .about-us-text h4 {
     
-    margin-right: 110px;
-    margin-left: 50px;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
+    margin-right: -10px;
+    margin-left: -10px;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
      /* Alineación por defecto del h2 */
 }
-} 
-
-@media (max-width: 600px) {
-    .about-us-content{
-        max-width: 1400px;
-    }
-    .about-us-text {
-        margin-top: 60px;
-        margin-right: 40px;
-        margin-left: 50px;
-    }
-
-    .about-us-section h2 {
-        font-size: 1.2em;
-        text-align: left;
-      }
-  .carousel-slide .about-us-text h3 {
-    font-size: 1.3em;
-    text-align: left;
-    margin-top: auto;
-    margin-left: 80px;
-  }
-
-  .carousel-slide .about-us-text h3 {
-    font-size: 1.3em;
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 80px;
-  }
-
-  .carousel-slide .about-us-text h4 {
-    font-size: 1.3em;
-    text-align: center;
-    margin-top: auto;
-    
-  }
-  .carousel-slide .about-us-text p {
-    font-size: 0.7em;
-    text-align: left;
-    max-width: 600px; /* puedes ajustar este valor */
-    margin-right: 30px;
-    margin-left: 20px;
-    margin-top: 0.5px;
-
-  }
-  .about-us-text ul{
-    font-size: 0.7em;
-    text-align: left;
-    max-width: 600px; /* puedes ajustar este valor */
-    margin-right: 100px;
-    margin-left: 80px;
-    margin-top: 0.5px;
-
-  }
-  .carousel-slide.full-width-text-slide .about-us-text {
-    flex: 1 20 100%;
-    padding-right: 60px;
-    padding-left: 40px;
-    text-align: left;
-    width: 85%;
+.ods2-text{
+    font-size: 0.65em;
+    margin-left: 0px;
+    margin-right: 5px;
+    color: #ffffff;
+    line-height: 1.5;
+    width: 120px;
 }
 
-  .about-us-image img {
-    width: 140px;
-    height: auto;
-    max-width: 100%;
-    display: block;
-    border-radius: 8px;
-    margin-top: 20px; /* opcional */
-}
-.about-us-image {
-    flex: 1 1 auto;
-    display: flex-start;
-    justify-content: center;
-    align-items: center;
-    margin: 0 0 8px 0;
-    
-}
-.carousel-slide.why-we-exist-slide .about-us-text p {
-    
-    margin-right: 110px;
-    margin-left: 20px;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
-     /* Alineación por defecto del h2 */
-}
-.carousel-slide.why-we-exist-slide .about-us-text h4 {
-    
-    margin-right: 110px;
-    margin-left: 50px;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
-     /* Alineación por defecto del h2 */
-}
 .ods-block-small img {
-    margin-right: 10px;
-    margin-left: -50px;
-    
-   
+    width: 60px;
+    height: auto;
+    margin-left: 30px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
-.ods-block-small p {
-    margin-right: -100px;
-    margin-left: -200px;
-    
-}
-}
+
+} 
 
 @media (max-width: 500px) {
     .about-us-content{
@@ -593,11 +646,11 @@
     
   }
   .carousel-slide .about-us-text p {
-    font-size: 0.6em;
+    font-size: 0.68em;
     text-align: left;
-    max-width: 600px; /* puedes ajustar este valor */
-    margin-right: -20px;
-    margin-left: 10px;
+    max-width: 800px; /* puedes ajustar este valor */
+    margin-right: 0px;
+    margin-left: 20px;
     margin-top: 0.5px;
 
   }
@@ -651,12 +704,25 @@
     margin-left: -10px;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
      /* Alineación por defecto del h2 */
 }
-.ods-block-small img {
-    margin-right: 10px;
-    margin-left: -50px;
-    
-   
+.ods2-text{
+    display: none;
 }
+
+.ods-block-small img {
+    width: 90px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.ods-block-small  {
+    width: 150px;
+    margin-left: 30px;
+    height: 100px;
+    
+    
+}
+
 
 } 
 
@@ -705,13 +771,13 @@
     font-size: 0.6em;
     text-align: left;
     max-width: 600px; /* puedes ajustar este valor */
-    margin-right: -40px;
-    margin-left: -20px;
+    margin-right: -20px;
+    margin-left: 10px;
     margin-top: 0.5px;
 
   }
   .about-us-text ul{
-    font-size: 0.7em;
+    font-size: 0.56em;
     text-align: left;
     max-width: 600px; /* puedes ajustar este valor */
     margin-right: 100px;
@@ -760,26 +826,24 @@
     margin-left: -10px;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
      /* Alineación por defecto del h2 */
 }
+.ods2-text{
+    display: none;
+}
+
 .ods-block-small img {
-    width: 50px;
-    margin-right: 50px;
-    margin-left: 0px;
-    
-   
+    width: 90px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
-.ods-block-small p {
+.ods-block-small  {
+    width: 150px;
+    margin-left: 30px;
+    height: 100px;
     
-    width: 200px;
-    height: 10px;
     
-   
-}
-.ods-columna {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-right: 0px;
-    margin-left: 0px; /* Espacio entre los bloques, puedes ajustarlo */
 }
 
 } 
+

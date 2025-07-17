@@ -1773,16 +1773,17 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
 @media (max-width: 900px) {
     .footer-baq-container {
         display: flex;
-        flex-direction: column;
         gap: 16px;
         align-items: center; /* Centra horizontalmente el contenido */
-        justify-content: center;
-        text-align: center; /* Opcional: centra verticalmente si el contenedor tiene altura */
+        text-align: center;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;/* Opcional: centra verticalmente si el contenedor tiene altura */
     }
     
     .footer-baq-col {
-        width: 100%;
-        max-width: 400px; /* O el ancho que prefieras para que no se vean demasiado anchas */
+        width: 50%;
+        max-width: 250px; /* O el ancho que prefieras para que no se vean demasiado anchas */
         margin: 0 auto;   /* Centra cada columna si tienen un ancho menor al 100% */
         text-align: center; /* Centra el texto dentro de cada columna */
     }
