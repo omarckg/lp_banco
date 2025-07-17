@@ -847,7 +847,7 @@
 
 } 
 
-@media (max-width: 367px) {
+@media (max-width: 420px) {
     .about-us-content{
         max-width: 500px;
     }
@@ -916,6 +916,127 @@
 
   .about-us-image img {
     width: 90px;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+    margin-top: 20px; /* opcional */
+}
+.about-us-image {
+    flex: 1 1 auto;
+    display: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 8px 0;
+    
+}
+.carousel-slide.why-we-exist-slide .about-us-text  {
+    
+    height: 480px;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
+     /* Alineación por defecto del h2 */
+}
+.carousel-slide.why-we-exist-slide .about-us-text p {
+    
+    margin-right: -30px;
+    margin-left: -30px;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
+     /* Alineación por defecto del h2 */
+}
+.carousel-slide.why-we-exist-slide .about-us-text h4 {
+    
+    margin-right: -10px;
+    margin-left: -10px;/* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
+     /* Alineación por defecto del h2 */
+}
+.ods2-text{
+    display: none;
+}
+
+.ods-block-small img {
+    width: 90px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.ods-block-small  {
+    width: 150px;
+    margin-left: 30px;
+    height: 100px;
+    
+    
+}
+
+} 
+
+@media (max-width: 340px) {
+    .about-us-content{
+        max-width: 500px;
+    }
+    
+    .carousel-inner {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 150%;
+        height: 350px;
+    }
+
+    .about-us-text {
+        margin-top: 0px;
+    }
+
+    .about-us-section h2 {
+        font-size: 1.2em;
+        text-align: left;
+      }
+  .carousel-slide .about-us-text h3 {
+    font-size: 1.1em;
+    text-align: left;
+    margin-top: auto;
+    margin-left: 80px;
+  }
+
+  .carousel-slide .about-us-text h3 {
+    font-size: 1.1em;
+    text-align: left;
+    margin-top: auto;
+    margin-left: 30px;
+  }
+
+  .carousel-slide .about-us-text h4 {
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: auto;
+    margin-left: 20px;
+    
+  }
+  .carousel-slide .about-us-text p {
+    font-size: 0.55em;
+    text-align: left;
+    max-width: 600px; /* puedes ajustar este valor */
+    margin-right: -35px;
+    margin-left: -5px;
+    margin-top: 0.5px;
+
+  }
+  .about-us-text ul{
+    font-size: 0.56em;
+    text-align: left;
+    max-width: 600px; /* puedes ajustar este valor */
+    margin-right: 100px;
+    margin-left: 20px;
+    margin-top: 0.5px;
+
+  }
+  .carousel-slide.full-width-text-slide .about-us-text {
+    flex: 1 20 100%;
+    margin-right: 50px;
+    margin-left: 30px;
+    text-align: left;
+    width: 70%;
+}
+
+  .about-us-image img {
+    width: 70px;
     height: auto;
     max-width: 100%;
     display: block;
