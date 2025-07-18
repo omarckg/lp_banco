@@ -103,10 +103,10 @@
 /* Estilos para la diapositiva sin imagen */
 .carousel-slide.full-width-text-slide .about-us-text {
     flex: 1 20 100%;
-    padding-right: 150px;
+    padding-right: 100px;
     padding-left: 0px;
     text-align: left;
-    width: 100%;
+    width: 85%;
 }
 
 /* Puedes añadir ajustes específicos para el contenedor de texto en esta diapositiva si es necesario */
