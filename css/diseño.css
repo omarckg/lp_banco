@@ -372,6 +372,37 @@ header.navbar-modern {
     transition: background 1s, box-shadow 1s;
 }
 
+.incontec-logo-banner {
+    position: absolute;
+    top: 85px; /* Ajusta según donde quieras que aparezca */
+    right: 750px; /* Ajusta según el orden de los logos */
+    width: 90px; /* O el tamaño que prefieras */
+    height: auto;
+    z-index: 100;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    opacity: 1;
+    padding: 0;
+    transition: none;
+}
+
+.certificado-logo-banner {
+    position: absolute;
+    top: 90px; /* Ajusta según donde quieras que aparezca */
+    right: 600px; /* Ajusta según el orden de los logos */
+    width: 115px; /* O el tamaño que prefieras */
+    height: auto;
+    z-index: 100;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    opacity: 1;
+    padding: 0;
+    transition: none;
+
+}
+
 .navbar-logo img {
     background: var(--beige) !important;
     border-radius: 12px;
@@ -1965,6 +1996,37 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         opacity: 0.8; /* Misma opacidad que las otras */
         transition: opacity 0.3s ease;
     }
+
+    .incontec-logo-banner {
+        position: absolute;
+        top: 130px; /* Ajusta según donde quieras que aparezca */
+        right: 750px; /* Ajusta según el orden de los logos */
+        width: 80px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 140px; /* Ajusta según donde quieras que aparezca */
+        right: 600px; /* Ajusta según el orden de los logos */
+        width: 95px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
+    }
     .navbar-logo {
         display: flex;
         align-items: center;
@@ -1989,6 +2051,103 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
    
     
 }  
+
+@media (max-width: 1390px){
+    .incontec-logo-banner {
+        position: absolute;
+        top: 130px; /* Ajusta según donde quieras que aparezca */
+        right: 700px; /* Ajusta según el orden de los logos */
+        width: 80px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 140px; /* Ajusta según donde quieras que aparezca */
+        right: 550px; /* Ajusta según el orden de los logos */
+        width: 95px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
+    }
+}
+@media (max-width: 1310px){
+    .incontec-logo-banner {
+        position: absolute;
+        top: 130px; /* Ajusta según donde quieras que aparezca */
+        right: 650px; /* Ajusta según el orden de los logos */
+        width: 80px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 140px; /* Ajusta según donde quieras que aparezca */
+        right: 500px; /* Ajusta según el orden de los logos */
+        width: 95px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
+    }
+}
+@media (max-width: 1210px){
+    .incontec-logo-banner {
+        position: absolute;
+        top: 130px; /* Ajusta según donde quieras que aparezca */
+        right: 600px; /* Ajusta según el orden de los logos */
+        width: 80px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 140px; /* Ajusta según donde quieras que aparezca */
+        right: 450px; /* Ajusta según el orden de los logos */
+        width: 95px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
+    }
+}
 @media (max-width: 1100px) {
     .contacto-section {
         padding: 40px 20px;
@@ -2071,6 +2230,37 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         opacity: 0.8; /* Misma opacidad que las otras */
         transition: opacity 0.3s ease;
     }
+
+    .incontec-logo-banner {
+        position: absolute;
+        top: 150px; /* Ajusta según donde quieras que aparezca */
+        right: 550px; /* Ajusta según el orden de los logos */
+        width: 75px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 160px; /* Ajusta según donde quieras que aparezca */
+        right: 420px; /* Ajusta según el orden de los logos */
+        width: 90px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
+    }
     .navbar-logo {
         display: flex;
         align-items: center;
@@ -2106,7 +2296,76 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
     }
 
     
-}   	
+}   
+
+@media (max-width: 1060px){
+    
+    .incontec-logo-banner {
+        position: absolute;
+        top: 150px; /* Ajusta según donde quieras que aparezca */
+        right: 520px; /* Ajusta según el orden de los logos */
+        width: 75px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 160px; /* Ajusta según donde quieras que aparezca */
+        right: 400px; /* Ajusta según el orden de los logos */
+        width: 90px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
+    }
+}
+
+@media (max-width: 970px){
+    
+    .incontec-logo-banner {
+        position: absolute;
+        top: 150px; /* Ajusta según donde quieras que aparezca */
+        right: 490px; /* Ajusta según el orden de los logos */
+        width: 75px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 160px; /* Ajusta según donde quieras que aparezca */
+        right: 350px; /* Ajusta según el orden de los logos */
+        width: 90px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
+    }
+}
+
 @media (max-width: 930px) {
     .contacto-section {
         padding: 40px 20px;
@@ -2197,6 +2456,37 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         padding: 0;
         transition: background 1s, box-shadow 1s;
     }
+
+    .incontec-logo-banner {
+        position: absolute;
+        top: 150px; /* Ajusta según donde quieras que aparezca */
+        right: 490px; /* Ajusta según el orden de los logos */
+        width: 75px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 160px; /* Ajusta según donde quieras que aparezca */
+        right: 350px; /* Ajusta según el orden de los logos */
+        width: 90px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
+    }
     
     .navbar-logo img {
         background: var(--beige) !important;
@@ -2230,6 +2520,73 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
 
     
 }  
+
+@media (max-width: 900px){
+    
+    .incontec-logo-banner {
+        position: absolute;
+        top: 150px; /* Ajusta según donde quieras que aparezca */
+        right: 450px; /* Ajusta según el orden de los logos */
+        width: 75px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 160px; /* Ajusta según donde quieras que aparezca */
+        right: 320px; /* Ajusta según el orden de los logos */
+        width: 90px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
+    }
+}
+@media (max-width: 790px){
+    
+    .incontec-logo-banner {
+        position: absolute;
+        top: 150px; /* Ajusta según donde quieras que aparezca */
+        right: 410px; /* Ajusta según el orden de los logos */
+        width: 75px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 160px; /* Ajusta según donde quieras que aparezca */
+        right: 300px; /* Ajusta según el orden de los logos */
+        width: 90px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
+    }
+}
 
 @media (max-width: 745px) {
     .contacto-section {
@@ -2322,6 +2679,37 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         opacity: 0.8; /* Misma opacidad que las otras */
         transition: opacity 0.3s ease;
     }
+
+    .incontec-logo-banner {
+        position: absolute;
+        top: 150px; /* Ajusta según donde quieras que aparezca */
+        right: 380px; /* Ajusta según el orden de los logos */
+        width: 65px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 160px; /* Ajusta según donde quieras que aparezca */
+        right: 260px; /* Ajusta según el orden de los logos */
+        width: 85px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
+    }
     .navbar-logo {
         display: flex;
         align-items: center;
@@ -2371,6 +2759,40 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
     }
 
 }  
+
+@media (max-width: 690px){
+    
+    .incontec-logo-banner {
+        position: absolute;
+        top: 150px; /* Ajusta según donde quieras que aparezca */
+        right: 360px; /* Ajusta según el orden de los logos */
+        width: 65px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 160px; /* Ajusta según donde quieras que aparezca */
+        right: 240px; /* Ajusta según el orden de los logos */
+        width: 85px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
+    }
+}
 @media (max-width: 650px) {
     .contacto-section {
         padding: 40px 20px;
@@ -2451,6 +2873,36 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         opacity: 0.8; /* Misma opacidad que ABACO */
         transition: opacity 0.3s ease;
     }
+    .incontec-logo-banner {
+        position: absolute;
+        top: 150px; /* Ajusta según donde quieras que aparezca */
+        right: 320px; /* Ajusta según el orden de los logos */
+        width: 65px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 160px; /* Ajusta según donde quieras que aparezca */
+        right: 200px; /* Ajusta según el orden de los logos */
+        width: 85px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
+    }
 
     .arquidiocesis-logo-banner {
         position: absolute;
@@ -2511,6 +2963,40 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
     }
 
 }  
+
+@media (max-width: 600px){
+    
+    .incontec-logo-banner {
+        position: absolute;
+        top: 150px; /* Ajusta según donde quieras que aparezca */
+        right: 290px; /* Ajusta según el orden de los logos */
+        width: 65px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 160px; /* Ajusta según donde quieras que aparezca */
+        right: 190px; /* Ajusta según el orden de los logos */
+        width: 85px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
+    }
+}
 
 @media (max-width: 500px) {
     .contacto-section {
@@ -2580,6 +3066,37 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         z-index: 2; /* Asegura que esté sobre el fondo pero bajo el navbar */
         opacity: 0.8; /* Ajusta la opacidad si quieres que se mezcle un poco */
         transition: opacity 0.3s ease;
+    }
+
+    .incontec-logo-banner {
+        position: absolute;
+        top: 150px; /* Ajusta según donde quieras que aparezca */
+        right: 240px; /* Ajusta según el orden de los logos */
+        width: 65px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 160px; /* Ajusta según donde quieras que aparezca */
+        right: 140px; /* Ajusta según el orden de los logos */
+        width: 85px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
     }
 
     .pastoral-logo-banner {
@@ -2674,6 +3191,40 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
     }
 
 }  
+
+@media (max-width: 420px){
+    
+    .incontec-logo-banner {
+        position: absolute;
+        top: 150px; /* Ajusta según donde quieras que aparezca */
+        right: 210px; /* Ajusta según el orden de los logos */
+        width: 65px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 160px; /* Ajusta según donde quieras que aparezca */
+        right: 110px; /* Ajusta según el orden de los logos */
+        width: 85px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
+    }
+}
 @media (max-width: 380px) {
     .contacto-section {
         padding: 40px 20px;
@@ -2753,6 +3304,37 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         z-index: 5; /* Mismo z-index que ABACO */
         opacity: 0.8; /* Misma opacidad que ABACO */
         transition: opacity 0.3s ease;
+    }
+
+    .incontec-logo-banner {
+        position: absolute;
+        top: 150px; /* Ajusta según donde quieras que aparezca */
+        right: 210px; /* Ajusta según el orden de los logos */
+        width: 60px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    }
+    
+    .certificado-logo-banner {
+        position: absolute;
+        top: 160px; /* Ajusta según donde quieras que aparezca */
+        right: 110px; /* Ajusta según el orden de los logos */
+        width: 70px; /* O el tamaño que prefieras */
+        height: auto;
+        z-index: 100;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        opacity: 1;
+        padding: 0;
+        transition: none;
+    
     }
 
     .arquidiocesis-logo-banner {
@@ -2839,6 +3421,8 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
     }
 
 } 
+
+
 
 
 
