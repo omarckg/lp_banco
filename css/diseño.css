@@ -376,9 +376,9 @@ header.navbar-modern {
     position: absolute;
     top: 85px; /* Ajusta según donde quieras que aparezca */
     right: 750px; /* Ajusta según el orden de los logos */
-    width: 90px; /* O el tamaño que prefieras */
+    width: 80px; /* O el tamaño que prefieras */
     height: auto;
-    z-index: 100;
+    z-index: 1;
     background: none;
     border-radius: 0;
     box-shadow: none;
@@ -391,9 +391,9 @@ header.navbar-modern {
     position: absolute;
     top: 90px; /* Ajusta según donde quieras que aparezca */
     right: 600px; /* Ajusta según el orden de los logos */
-    width: 115px; /* O el tamaño que prefieras */
+    width: 90px; /* O el tamaño que prefieras */
     height: auto;
-    z-index: 100;
+    z-index: 1;
     background: none;
     border-radius: 0;
     box-shadow: none;
@@ -2001,9 +2001,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 130px; /* Ajusta según donde quieras que aparezca */
         right: 750px; /* Ajusta según el orden de los logos */
-        width: 80px; /* O el tamaño que prefieras */
+        width: 70px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2016,9 +2016,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 140px; /* Ajusta según donde quieras que aparezca */
         right: 600px; /* Ajusta según el orden de los logos */
-        width: 95px; /* O el tamaño que prefieras */
+        width: 80px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2057,9 +2057,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 130px; /* Ajusta según donde quieras que aparezca */
         right: 700px; /* Ajusta según el orden de los logos */
-        width: 80px; /* O el tamaño que prefieras */
+        width: 70px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2072,9 +2072,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 140px; /* Ajusta según donde quieras que aparezca */
         right: 550px; /* Ajusta según el orden de los logos */
-        width: 95px; /* O el tamaño que prefieras */
+        width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2089,9 +2089,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 130px; /* Ajusta según donde quieras que aparezca */
         right: 650px; /* Ajusta según el orden de los logos */
-        width: 80px; /* O el tamaño que prefieras */
+        width: 70px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2104,9 +2104,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 140px; /* Ajusta según donde quieras que aparezca */
         right: 500px; /* Ajusta según el orden de los logos */
-        width: 95px; /* O el tamaño que prefieras */
+        width: 80px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2121,9 +2121,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 130px; /* Ajusta según donde quieras que aparezca */
         right: 600px; /* Ajusta según el orden de los logos */
-        width: 80px; /* O el tamaño que prefieras */
+        width: 70px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2136,9 +2136,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 140px; /* Ajusta según donde quieras que aparezca */
         right: 450px; /* Ajusta según el orden de los logos */
-        width: 95px; /* O el tamaño que prefieras */
+        width: 80px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2235,9 +2235,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 150px; /* Ajusta según donde quieras que aparezca */
         right: 550px; /* Ajusta según el orden de los logos */
-        width: 75px; /* O el tamaño que prefieras */
+        width: 65px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2250,9 +2250,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 160px; /* Ajusta según donde quieras que aparezca */
         right: 420px; /* Ajusta según el orden de los logos */
-        width: 90px; /* O el tamaño que prefieras */
+        width: 80px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2304,9 +2304,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 150px; /* Ajusta según donde quieras que aparezca */
         right: 520px; /* Ajusta según el orden de los logos */
-        width: 75px; /* O el tamaño que prefieras */
+        width: 65px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2319,9 +2319,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 160px; /* Ajusta según donde quieras que aparezca */
         right: 400px; /* Ajusta según el orden de los logos */
-        width: 90px; /* O el tamaño que prefieras */
+        width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2338,9 +2338,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 150px; /* Ajusta según donde quieras que aparezca */
         right: 490px; /* Ajusta según el orden de los logos */
-        width: 75px; /* O el tamaño que prefieras */
+        width: 65px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2353,9 +2353,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 160px; /* Ajusta según donde quieras que aparezca */
         right: 350px; /* Ajusta según el orden de los logos */
-        width: 90px; /* O el tamaño que prefieras */
+        width: 80px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2461,9 +2461,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 150px; /* Ajusta según donde quieras que aparezca */
         right: 490px; /* Ajusta según el orden de los logos */
-        width: 75px; /* O el tamaño que prefieras */
+        width: 65px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2476,9 +2476,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 160px; /* Ajusta según donde quieras que aparezca */
         right: 350px; /* Ajusta según el orden de los logos */
-        width: 90px; /* O el tamaño que prefieras */
+        width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2527,9 +2527,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 150px; /* Ajusta según donde quieras que aparezca */
         right: 450px; /* Ajusta según el orden de los logos */
-        width: 75px; /* O el tamaño que prefieras */
+        width: 65px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2542,9 +2542,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 160px; /* Ajusta según donde quieras que aparezca */
         right: 320px; /* Ajusta según el orden de los logos */
-        width: 90px; /* O el tamaño que prefieras */
+        width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2560,9 +2560,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 150px; /* Ajusta según donde quieras que aparezca */
         right: 410px; /* Ajusta según el orden de los logos */
-        width: 75px; /* O el tamaño que prefieras */
+        width: 65px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2575,9 +2575,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 160px; /* Ajusta según donde quieras que aparezca */
         right: 300px; /* Ajusta según el orden de los logos */
-        width: 90px; /* O el tamaño que prefieras */
+        width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2684,9 +2684,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 150px; /* Ajusta según donde quieras que aparezca */
         right: 380px; /* Ajusta según el orden de los logos */
-        width: 65px; /* O el tamaño que prefieras */
+        width: 55px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2699,9 +2699,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 160px; /* Ajusta según donde quieras que aparezca */
         right: 260px; /* Ajusta según el orden de los logos */
-        width: 85px; /* O el tamaño que prefieras */
+        width: 70px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2766,9 +2766,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 150px; /* Ajusta según donde quieras que aparezca */
         right: 360px; /* Ajusta según el orden de los logos */
-        width: 65px; /* O el tamaño que prefieras */
+        width: 55px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2781,9 +2781,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 160px; /* Ajusta según donde quieras que aparezca */
         right: 240px; /* Ajusta según el orden de los logos */
-        width: 85px; /* O el tamaño que prefieras */
+        width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2877,9 +2877,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 150px; /* Ajusta según donde quieras que aparezca */
         right: 320px; /* Ajusta según el orden de los logos */
-        width: 65px; /* O el tamaño que prefieras */
+        width: 55px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2892,9 +2892,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 160px; /* Ajusta según donde quieras que aparezca */
         right: 200px; /* Ajusta según el orden de los logos */
-        width: 85px; /* O el tamaño que prefieras */
+        width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2970,9 +2970,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 150px; /* Ajusta según donde quieras que aparezca */
         right: 290px; /* Ajusta según el orden de los logos */
-        width: 65px; /* O el tamaño que prefieras */
+        width: 55px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2985,9 +2985,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 160px; /* Ajusta según donde quieras que aparezca */
         right: 190px; /* Ajusta según el orden de los logos */
-        width: 85px; /* O el tamaño que prefieras */
+        width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -3072,7 +3072,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 150px; /* Ajusta según donde quieras que aparezca */
         right: 240px; /* Ajusta según el orden de los logos */
-        width: 65px; /* O el tamaño que prefieras */
+        width: 55px; /* O el tamaño que prefieras */
         height: auto;
         z-index: 100;
         background: none;
@@ -3087,9 +3087,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 160px; /* Ajusta según donde quieras que aparezca */
         right: 140px; /* Ajusta según el orden de los logos */
-        width: 85px; /* O el tamaño que prefieras */
+        width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -3198,9 +3198,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 150px; /* Ajusta según donde quieras que aparezca */
         right: 210px; /* Ajusta según el orden de los logos */
-        width: 65px; /* O el tamaño que prefieras */
+        width: 55px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -3213,9 +3213,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 160px; /* Ajusta según donde quieras que aparezca */
         right: 110px; /* Ajusta según el orden de los logos */
-        width: 85px; /* O el tamaño que prefieras */
+        width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -3310,9 +3310,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 150px; /* Ajusta según donde quieras que aparezca */
         right: 210px; /* Ajusta según el orden de los logos */
-        width: 60px; /* O el tamaño que prefieras */
+        width: 50px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -3325,9 +3325,9 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         position: absolute;
         top: 160px; /* Ajusta según donde quieras que aparezca */
         right: 110px; /* Ajusta según el orden de los logos */
-        width: 70px; /* O el tamaño que prefieras */
+        width: 60px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 1;
         background: none;
         border-radius: 0;
         box-shadow: none;
