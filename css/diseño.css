@@ -378,7 +378,7 @@ header.navbar-modern {
     right: 750px; /* Ajusta según el orden de los logos */
     width: 80px; /* O el tamaño que prefieras */
     height: auto;
-    z-index: 1;
+    z-index: 5;
     background: none;
     border-radius: 0;
     box-shadow: none;
@@ -393,7 +393,7 @@ header.navbar-modern {
     right: 600px; /* Ajusta según el orden de los logos */
     width: 90px; /* O el tamaño que prefieras */
     height: auto;
-    z-index: 1;
+    z-index: 5;
     background: none;
     border-radius: 0;
     box-shadow: none;
@@ -2003,7 +2003,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 750px; /* Ajusta según el orden de los logos */
         width: 70px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2018,7 +2018,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 600px; /* Ajusta según el orden de los logos */
         width: 80px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2059,7 +2059,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 700px; /* Ajusta según el orden de los logos */
         width: 70px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2074,7 +2074,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 550px; /* Ajusta según el orden de los logos */
         width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2091,7 +2091,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 650px; /* Ajusta según el orden de los logos */
         width: 70px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2106,7 +2106,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 500px; /* Ajusta según el orden de los logos */
         width: 80px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2123,7 +2123,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 600px; /* Ajusta según el orden de los logos */
         width: 70px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2138,7 +2138,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 450px; /* Ajusta según el orden de los logos */
         width: 80px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2237,7 +2237,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 550px; /* Ajusta según el orden de los logos */
         width: 65px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2252,7 +2252,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 420px; /* Ajusta según el orden de los logos */
         width: 80px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2306,7 +2306,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 520px; /* Ajusta según el orden de los logos */
         width: 65px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2321,7 +2321,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 400px; /* Ajusta según el orden de los logos */
         width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2340,7 +2340,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 490px; /* Ajusta según el orden de los logos */
         width: 65px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2355,7 +2355,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 350px; /* Ajusta según el orden de los logos */
         width: 80px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2463,7 +2463,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 490px; /* Ajusta según el orden de los logos */
         width: 65px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2478,7 +2478,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 350px; /* Ajusta según el orden de los logos */
         width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2529,7 +2529,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 450px; /* Ajusta según el orden de los logos */
         width: 65px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2544,7 +2544,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 320px; /* Ajusta según el orden de los logos */
         width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2562,7 +2562,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 410px; /* Ajusta según el orden de los logos */
         width: 65px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2577,7 +2577,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 300px; /* Ajusta según el orden de los logos */
         width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2686,7 +2686,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 380px; /* Ajusta según el orden de los logos */
         width: 55px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2701,7 +2701,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 260px; /* Ajusta según el orden de los logos */
         width: 70px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2768,7 +2768,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 360px; /* Ajusta según el orden de los logos */
         width: 55px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2783,7 +2783,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 240px; /* Ajusta según el orden de los logos */
         width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2879,7 +2879,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 320px; /* Ajusta según el orden de los logos */
         width: 55px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2894,7 +2894,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 200px; /* Ajusta según el orden de los logos */
         width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2972,7 +2972,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 290px; /* Ajusta según el orden de los logos */
         width: 55px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -2987,7 +2987,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 190px; /* Ajusta según el orden de los logos */
         width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -3074,7 +3074,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 240px; /* Ajusta según el orden de los logos */
         width: 55px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 100;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -3089,7 +3089,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 140px; /* Ajusta según el orden de los logos */
         width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -3200,7 +3200,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 210px; /* Ajusta según el orden de los logos */
         width: 55px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -3215,7 +3215,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 110px; /* Ajusta según el orden de los logos */
         width: 75px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -3312,7 +3312,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 210px; /* Ajusta según el orden de los logos */
         width: 50px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -3327,7 +3327,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 110px; /* Ajusta según el orden de los logos */
         width: 60px; /* O el tamaño que prefieras */
         height: auto;
-        z-index: 1;
+        z-index: 5;
         background: none;
         border-radius: 0;
         box-shadow: none;
