@@ -382,9 +382,12 @@ header.navbar-modern {
     background: none;
     border-radius: 0;
     box-shadow: none;
-    opacity: 1;
+    opacity: 0.8; 
     padding: 0;
-    transition: none;
+    transition: opacity 0.3s ease;
+}
+.incontec-logo-banner:hover {
+    opacity: 1;
 }
 
 .certificado-logo-banner {
@@ -397,10 +400,13 @@ header.navbar-modern {
     background: none;
     border-radius: 0;
     box-shadow: none;
-    opacity: 1;
+    opacity: 0.8; 
     padding: 0;
-    transition: none;
+    transition: opacity 0.3s ease;
 
+}
+.certificado-logo-banner:hover {
+    opacity: 1;
 }
 
 .navbar-logo img {
@@ -2007,9 +2013,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -2022,9 +2029,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     
     }
     .navbar-logo {
@@ -2063,9 +2071,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -2078,9 +2087,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     
     }
 }
@@ -2095,9 +2105,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
-        transition: none;
+        transition: none;   
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -2110,9 +2121,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     
     }
 }
@@ -2127,9 +2139,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -2142,9 +2155,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     
     }
 }
@@ -2241,9 +2255,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -2256,10 +2271,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
-    
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     .navbar-logo {
         display: flex;
@@ -2310,9 +2325,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -2325,9 +2341,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     
     }
 }
@@ -2344,9 +2361,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -2359,9 +2377,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     
     }
 }
@@ -2467,9 +2486,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -2482,9 +2502,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     
     }
     
@@ -2533,9 +2554,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -2548,10 +2570,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
-    
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
 }
 @media (max-width: 790px){
@@ -2566,9 +2588,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -2581,9 +2604,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     
     }
 }
@@ -2690,9 +2714,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -2705,9 +2730,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     
     }
     .navbar-logo {
@@ -2772,9 +2798,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -2787,9 +2814,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
-        transition: none;
+        transition: none;   
+        transition: opacity 0.5s ease, transform 0.5s ease;
     
     }
 }
@@ -2883,9 +2911,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -2898,9 +2927,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     
     }
 
@@ -2976,9 +3006,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -2991,9 +3022,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     
     }
 }
@@ -3060,7 +3092,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
     .abaco-logo-banner {
         position: absolute;
         top: 80px; /* Ajusta la distancia desde arriba para que quede debajo del navbar */
-        right: 300px; /* Ajusta la distancia para que haya 20px entre cada imagen y el borde derecho */
+        right: 280px; /* Ajusta la distancia para que haya 20px entre cada imagen y el borde derecho */
         width: 90px; /* Ajusta el tamaño según sea necesario */
         height: auto;
         z-index: 2; /* Asegura que esté sobre el fondo pero bajo el navbar */
@@ -3078,9 +3110,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -3093,9 +3126,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     
     }
 
@@ -3204,9 +3238,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -3219,9 +3254,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     
     }
 }
@@ -3316,9 +3352,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
     
     .certificado-logo-banner {
@@ -3331,9 +3368,10 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         background: none;
         border-radius: 0;
         box-shadow: none;
-        opacity: 1;
+        opacity: 0.8;
         padding: 0;
         transition: none;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     
     }
 
