@@ -10,12 +10,15 @@
     --gris-texto: #333;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 body {
     background-color: var(--beige);
     color: var(--vinotinto);
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+
 }
 
 header {
@@ -52,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #dad87a; /* Color al pasar el mouse */
+    color: #d8da7a; /* Color al pasar el mouse */
 }
 
 .hero-banner {
@@ -83,7 +86,7 @@ nav a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(246, 198, 103, 0.341);
+    background: rgba(255, 255, 255, 0.336);
     z-index: 2;
 }
 
@@ -117,7 +120,7 @@ nav a:hover {
 }
 
 .hero-title {
-    font-size: 3.5rem;
+    font-size: 47px;
     font-weight: bold;
     color: var(--beige);
     text-shadow: 2px 2px 8px var(--gris-texto);
@@ -127,7 +130,7 @@ nav a:hover {
 }
 
 .hero-subtitle {
-    font-size: 1.7rem;
+    font-size: 40px;
     color: var(--beige);
     font-style: italic;
     margin-bottom: 0.5rem;
@@ -146,12 +149,12 @@ nav a:hover {
 }
 
 .hero-donate-btn {
-    background: var(--vinotinto);
+    background: #AA0C0E;
     color: var(--beige);
     font-size: 1.5rem;
     font-weight: bold;
     padding: 0.7em 2.5em;
-    border-radius: 12px;
+    border-radius: 5px;
     text-decoration: none;
     box-shadow: 0 4px 16px rgba(0,0,0,0.15);
     transition: background 0.2s, color 0.2s, transform 0.2s;
@@ -173,7 +176,7 @@ nav a:hover {
     right: 380px; /* Ajusta la distancia para que haya 20px entre cada imagen y el borde derecho */
     width: 120px; /* Ajusta el tamaño según sea necesario */
     height: auto;
-    z-index: 100; /* Asegura que esté sobre el fondo pero bajo el navbar */
+    z-index: 10; /* Asegura que esté sobre el fondo pero bajo el navbar */
     opacity: 0.8; /* Ajusta la opacidad si quieres que se mezcle un poco */
     transition: opacity 0.3s ease;
 }
@@ -205,7 +208,7 @@ nav a:hover {
     right: 50px; /* La más a la derecha, a 20px del borde derecho */
     width: 130px; /* Ajusta el tamaño para que sea similar a las otras */
     height: auto;
-    z-index: 100; /* Mismo z-index que las otras */
+    z-index: 5; /* Mismo z-index que las otras */
     opacity: 0.8; /* Misma opacidad que las otras */
     transition: opacity 0.3s ease;
 }
@@ -221,7 +224,7 @@ nav a:hover {
     left: 60px; /* Distancia desde la izquierda */
     width: 170px; /* Ajusta el tamaño según necesites */
     height: auto;
-    z-index: 5; /* Asegura que esté sobre el fondo del banner */
+    z-index: 2; /* Asegura que esté sobre el fondo del banner */
     border-radius: 8px;
     transition: opacity 0.3s ease;
     opacity: 0.8; /* Añadir opacidad para que se vea semitransparente */
@@ -322,7 +325,7 @@ input, textarea {
 button {
     margin-top: 10px;
     padding: 10px;
-    background-color: var(--vinotinto);
+    background-color:  #AA0C0E;
     border: none;
     color: var(--crema);
     cursor: pointer;
@@ -330,7 +333,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--vinotinto-claro);
+    background-color:  #AA0C0E;
 }
 
 header.navbar-modern.navbar-transparent {
@@ -374,21 +377,21 @@ header.navbar-modern {
 
 .incontec-logo-banner {
     position: absolute;
-    top: 85px; /* Ajusta según donde quieras que aparezca */
-    right: 750px; /* Ajusta según el orden de los logos */
+    top: 10%;/* Ajusta según donde quieras que aparezca */
+    right: 750px;
+    left: 50%; /* Ajusta según el orden de los logos */
     width: 80px; /* O el tamaño que prefieras */
     height: auto;
     z-index: 5;
     background: none;
     border-radius: 0;
     box-shadow: none;
-    opacity: 0.8; 
+    
     padding: 0;
-    transition: opacity 0.3s ease;
+    
+    transform: translate(-50%, -50%);
 }
-.incontec-logo-banner:hover {
-    opacity: 1;
-}
+
 
 .certificado-logo-banner {
     position: absolute;
@@ -906,30 +909,6 @@ section h2 {
 }
 
 /* Botón "QUIERO PARTICIPAR" */
-.btn-participate {
-    background-color: var(--vinotinto);
-    color: var(--beige);
-    padding: 15px 40px;
-    border-radius: 25px;
-    font-size: 1.2em;
-    font-weight: bold;
-    text-decoration: none;
-    margin-top: 40px;
-    display: inline-flex; /* Permite alinear el icono con el texto */
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-    border: none;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-    transition: all 0.3s ease;
-}
-
-.btn-participate:hover {
-    background-color: var(--vinotinto-claro);
-    color: var(--dorado);
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-}
 
 /* Media Queries para Responsividad */
 @media (max-width: 992px) {
@@ -1263,7 +1242,7 @@ section h2 {
 
 .contacto-info h2 {
     color: var(--vinotinto);
-    font-size: 2.5em;
+    font-size: 2.em;
     margin-bottom: 40px;
     background: none;
     padding: 0;
@@ -1644,7 +1623,7 @@ section h2 {
 
 /* Cambiar navbar y menús */
 .navbar-modern, .navbar-menu, .dropdown-content, .navbar-logo, .navbar-container {
-    background-color: var(--vinotinto) !important;
+    background-color: #5C1617 !important;
     transition: background 0.4s, box-shadow 0.4s;
 }
 
@@ -1661,7 +1640,7 @@ section h2 {
 
 /* Cambiar botones principales */
 button, .btn-donar, .btn-saber-mas, .donation-btn, .carousel-btn, .hero-donation-btn, .chat-button {
-    background-color: var(--vinotinto) !important;
+    background-color: #AA0C0E    !important;
     color: var(--beige) !important;
     border: none !important;
 }
@@ -1841,8 +1820,8 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
 
 .contacto-mapa-solo h2 {
     color: var(--vinotinto);
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.434);
-    font-size: 2em;
+   
+    font-size: 47px;
     margin-bottom: 18px;
     text-align: center;
     background: none;
@@ -1964,7 +1943,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         left: 60px; /* Distancia desde la izquierda */
         width: 150px; /* Ajusta el tamaño según necesites */
         height: auto;
-        z-index: 10; /* Asegura que esté sobre el fondo del banner */
+        z-index: 2; /* Asegura que esté sobre el fondo del banner */
         border-radius: 8px;
         transition: opacity 0.3s ease;
         opacity: 0.8; /* Añadir opacidad para que se vea semitransparente */
@@ -1998,43 +1977,14 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 50px; /* La más a la derecha, a 20px del borde derecho */
         width: 130px; /* Ajusta el tamaño para que sea similar a las otras */
         height: auto;
-        z-index: 100; /* Mismo z-index que las otras */
+        z-index: 5; /* Mismo z-index que las otras */
         opacity: 0.8; /* Misma opacidad que las otras */
         transition: opacity 0.3s ease;
     }
 
-    .incontec-logo-banner {
-        position: absolute;
-        top: 130px; /* Ajusta según donde quieras que aparezca */
-        right: 750px; /* Ajusta según el orden de los logos */
-        width: 70px; /* O el tamaño que prefieras */
-        height: auto;
-        z-index: 5;
-        background: none;
-        border-radius: 0;
-        box-shadow: none;
-        opacity: 0.8;
-        padding: 0;
-        transition: none;
-        transition: opacity 0.5s ease, transform 0.5s ease;
-    }
+   
     
-    .certificado-logo-banner {
-        position: absolute;
-        top: 140px; /* Ajusta según donde quieras que aparezca */
-        right: 600px; /* Ajusta según el orden de los logos */
-        width: 80px; /* O el tamaño que prefieras */
-        height: auto;
-        z-index: 5;
-        background: none;
-        border-radius: 0;
-        box-shadow: none;
-        opacity: 0.8;
-        padding: 0;
-        transition: none;
-        transition: opacity 0.5s ease, transform 0.5s ease;
     
-    }
     .navbar-logo {
         display: flex;
         align-items: center;
@@ -2206,7 +2156,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         left: 60px; /* Distancia desde la izquierda */
         width: 150px; /* Ajusta el tamaño según necesites */
         height: auto;
-        z-index: 10; /* Asegura que esté sobre el fondo del banner */
+        z-index: 2; /* Asegura que esté sobre el fondo del banner */
         border-radius: 8px;
         transition: opacity 0.3s ease;
         opacity: 0.8; /* Añadir opacidad para que se vea semitransparente */
@@ -2240,7 +2190,7 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
         right: 50px; /* La más a la derecha, a 20px del borde derecho */
         width: 130px; /* Ajusta el tamaño para que sea similar a las otras */
         height: auto;
-        z-index: 100; /* Mismo z-index que las otras */
+        z-index: 5; /* Mismo z-index que las otras */
         opacity: 0.8; /* Misma opacidad que las otras */
         transition: opacity 0.3s ease;
     }
@@ -3459,6 +3409,50 @@ main, .carousel, .main-cards, .donation-hero, .donation-hero-buttons {
     }
 
 } 
+
+
+
+
+
+
+
+
+
+
+/* Estilos para el logo de Incontec en el footer */
+.incontec-logo-footer {
+    width: 80px;
+    height: auto;
+    margin-top: 15px;
+    margin-right: 10px;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+    display: inline-block;
+}
+
+.incontec-logo-footer:hover {
+    opacity: 1;
+}
+
+.certificado-logo-footer {
+    width: 90px;
+    height: auto;
+    margin-top: 15px;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+    display: inline-block;
+}
+
+.certificado-logo-footer:hover {
+    opacity: 1;
+}
+
+.footer-logos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
 
 
 

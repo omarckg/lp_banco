@@ -44,7 +44,7 @@
 
 .about-us-section h2 {
     color: var(--vinotinto);
-    font-size: 3em;
+    font-size: 47px;
     margin-bottom: 15px;
     position: relative;
     display: inline-block;
@@ -53,7 +53,7 @@
     border-radius: 0;
     text-transform: uppercase;
     letter-spacing: 1px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    
 }
 
 .about-us-section h2::after {
@@ -153,7 +153,8 @@
     padding: 0px 12px; /* Pequeño relleno para que el fondo no esté pegado al texto */
     border-radius: 5px; /* Ligeros bordes redondeados */
     margin-bottom: 0px; /* Espacio entre párrafos con fondo */
-    line-height: 1.6; /* Mejora la legibilidad si el texto es largo */
+    line-height: 1.6;
+    font-size: 14px; /* Mejora la legibilidad si el texto es largo */
 }
 
 /* Opcional: Si quieres que el h2 de "¿POR QUÉ EXISTIMOS?" NO tenga fondo,
@@ -170,6 +171,7 @@
     margin: 0 auto 20px auto; /* Ajusta los márgenes si es necesario */
     text-align: left; /* Alineación por defecto del h2 */
 }
+
 
 .carousel-slide.why-we-exist-slide .about-us-text  {
     /* Si tenías estilos de fondo aquí, elimínalos o redefínelos */
@@ -250,7 +252,7 @@
 .ods2-text{
     font-size: 1em;
     margin-left: 0px;
-    margin-right: 5px;
+    margin-right: 20px;
     color: #ffffff;
     line-height: 1.5;
 }

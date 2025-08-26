@@ -12,8 +12,8 @@
 .aliados-donantes-container {
     border-radius: 24px;
     
-    max-width: 1550px;
-    width: 100%;
+    
+    width: 95%;
     overflow: hidden;
     margin: 0 0;
     padding: 40px 20px 30px 20px;
@@ -25,7 +25,7 @@
 .aliados-donantes-card h2 {
     color: white;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.434);
-    font-size: 3em;
+    font-size: 47px;
     margin-bottom: 30px;
     background: none;
     font-weight: bold;
@@ -239,7 +239,7 @@
     max-width: 420px;
     margin: 0 auto;
     text-align: center;
-    transform: translate(-100px, 0px); /* Cambia los valores para mover en X (horizontal) y Y (vertical) */
+    transform: translate(-130px, 0px); /* Cambia los valores para mover en X (horizontal) y Y (vertical) */
 }
 
 .aliados-mencion-banner-right {

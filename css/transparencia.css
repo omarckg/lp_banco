@@ -43,10 +43,10 @@
 
 .transparency-section .section-title {
     color: var(--vinotinto); /* Título en beige para contraste */
-    font-size: 4em;
+    font-size: 47px;
     font-weight: bold;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.404);
+    
     background: none; /* Asegura que no tenga fondo heredado */
     padding: 0;
     display: inline-block;
@@ -68,8 +68,8 @@
 }
 
 .report-card {
-    background-color: var(--vinotinto); /* Blanco semitransparente */
-    border-radius: 15px;
+    background-color:  #AA0C0E; /* Blanco semitransparente */
+    border-radius: 5px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
@@ -131,8 +131,8 @@
 }
 
 .figure-card {
-    background-color: var(--vinotinto); /* Blanco semitransparente */
-    border-radius: 15px;
+    background-color:#AA0C0E    ; /* Blanco semitransparente */
+    border-radius: 5px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     padding: 30px;
     text-align: center;

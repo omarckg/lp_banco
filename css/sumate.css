@@ -1,5 +1,5 @@
 .sumate-section {
-    background: linear-gradient(rgba(246, 198, 103, 0.67), rgba(246, 198, 103, 0.758)), url('../img/Fotos_banco/23.png') center center/cover no-repeat;
+    background: rgba(156, 156, 156, 0.192);
     padding: 40px 0 60px 0;
     display: flex;
     flex-direction: column;
@@ -24,8 +24,8 @@
 .sumate-titulo {
     color: #6b181b;
     background: #ffffff00;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.434);
-    font-size: 3em;
+    
+    font-size: 47px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 18px;
@@ -52,10 +52,10 @@
 }
 
 .sumate-btn-descarga {
-    background: #6b181b;
+    background: #AA0C0E;
     color: #fff;
     font-weight: bold;
-    border-radius: 16px;
+    border-radius: 5px;
     padding: 12px 28px;
     text-decoration: none;
     font-size: 1.05em;
@@ -90,10 +90,10 @@
 }
 
 .sumate-banner-verde {
-    background: #7bb13c;
+    background: #5C1617;
     color: #fff;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px 18px;
     text-align: center;
     margin-bottom: 18px;
@@ -101,10 +101,10 @@
 }
 
 .sumate-btn-inscribete {
-    background: #6b181b;
+    background: #AA0C0E    ;
     color: #fff;
     font-weight: bold;
-    border-radius: 16px;
+    border-radius: 5px;
     padding: 13px 44px;
     text-decoration: none;
     font-size: 1.2em;
